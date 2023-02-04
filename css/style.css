@@ -11,3 +11,16 @@
     margin:0 auto;
     padding:0 2%;
 }
+
+header{
+    padding: 20px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.flowchart{
+    padding: 20px;
+    text-align: center;
+}
