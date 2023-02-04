@@ -12,8 +12,13 @@
     padding:0 2%;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 header{
-    padding: 20px;
+    padding: 30px;
+    background-color: rgb(172, 153, 112);
 }
 
 .center{
@@ -23,4 +28,19 @@ header{
 .flowchart{
     padding: 20px;
     text-align: center;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(172, 153, 112);
+}
+
+.menu a{
+    padding: 10px;
+    display: grid;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 05px;
 }
