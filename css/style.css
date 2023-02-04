@@ -17,8 +17,8 @@ html,body{
 }
 
 header{
-    padding: 30px;
-    background-color: rgb(172, 153, 112);
+    padding: 10px;
+    background-color: rgb(117, 45, 45);
 }
 
 .center{
@@ -32,15 +32,21 @@ header{
 
 .menu{
     width: 100%;
+    padding: 15px;
     text-align: center;
-    background-color: rgb(172, 153, 112);
+    background-color: rgb(117, 45, 45);
 }
 
 .menu a{
-    padding: 10px;
-    display: grid;
+    padding: 15px;
+    display: flexbox;
     color: antiquewhite;
     text-decoration: none;
     font-weight: bold;
     margin-right: 05px;
+}
+
+.FFhacktics{
+    padding: 05px;
+    text-align: right;
 }
