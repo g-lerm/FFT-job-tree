@@ -25,9 +25,16 @@ header{
     justify-content: center;
 }
 
-.flowchart{
+.table{
     padding: 20px;
-    text-align: center;
+    display: flex;
+    text-align: left;
+}
+
+.container{
+    border: 10px solid brown;
+    width: 501;
+    height: 861;
 }
 
 .menu{
